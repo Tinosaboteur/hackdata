@@ -1,0 +1,6 @@
+services:
+  - name: my-flask-app
+    envVars:
+      - key: PORT
+        value: 10000
+    startCommand: "./start.sh"
